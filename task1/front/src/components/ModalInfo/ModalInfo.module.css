@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    border: none;
+    background: none;
+    padding: 0;
+    height: 20px;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.name {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.row {
+    display: flex;
+    gap: 40px
+}
+
+.label {
+    min-width: 137px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.value {
+    color:  #8189A3;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.add-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.add-value {
+    color: #8189A3;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}

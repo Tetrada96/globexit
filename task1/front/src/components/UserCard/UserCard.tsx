@@ -3,9 +3,11 @@ import styles from './UserCard.module.css'
 import emailIcon from '../../assets/email.svg';
 import phoneIcon from '../../assets/phone.svg';
 
-export const UserCard = ({ user }: { user: IUser }) => {
+
+export const UserCard = ({ user, onClick }: { user: IUser; onClick: (user: IUser) => void; }) => {
+
   return (
-    <div className={styles['user-card']}>
+    <div className={styles['user-card']} onClick={() => onClick(user)} >
       <div className={styles['info-wrapper']}>
         <div className={styles.name}>{user.name}</div>
         <div className={styles.contacts}>
@@ -19,6 +21,7 @@ export const UserCard = ({ user }: { user: IUser }) => {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }
