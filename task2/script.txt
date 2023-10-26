@@ -1,0 +1,2 @@
+ 
+SqlPackage /Action:Import /SourceFile:"~/Downloads/testdb.bacpac" /TargetConnectionString:"Server=localhost;Initial Catalog=testdb;Persist Security Info=False;User ID=sa;Password=StrongPassword123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"
